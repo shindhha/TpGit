@@ -27,7 +27,10 @@ public class DureeHMS {
 
         // on recommence la saisie jusqu'à ce qu'elle soit correcte
         do {
-            System.out.print("Entrez un entier : ");
+            System.out.print("Vous allez entrez une chaine et le programme verifiera"
+                             + " si elle est bien dans le format hh:mm:ss. \n"
+                             + "Le separateur ':' peut etre remplace par n'importe"
+                             + " quel caractere.          \n ==> ");
             if (entree.hasNextInt()) {      // l'utilisateur a entré un entier
                 valeur = entree.nextInt();
                 correct = true;
