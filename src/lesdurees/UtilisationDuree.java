@@ -7,7 +7,7 @@ package lesdurees;
 import java.util.Scanner;
 
 /**
- * Utilisation des méthodes traitant les durées
+ * Utilisation des mï¿½thodes traitant les durï¿½es
  */
 public class UtilisationDuree {
 
@@ -36,16 +36,16 @@ public class UtilisationDuree {
      * 
      */
     public static void testOrdre() {
-        int[] d1; // première durée
-        int[] d2; // deuxième durée
-        int[] d3; // troisième
+        int[] d1; // premiï¿½re durï¿½e
+        int[] d2; // deuxiï¿½me durï¿½e
+        int[] d3; // troisiï¿½me
 
-        d1 = DureeHMS.saisirDuree("Saisie de la première durée : ");
-        d2 = DureeHMS.saisirDuree("Saisie de la deuxième durée : ");
-        d3 = DureeHMS.saisirDuree("Saisie de la troisième durée : ");
+        d1 = DureeHMS.saisirDuree("Saisie de la premiï¿½re durï¿½e : ");
+        d2 = DureeHMS.saisirDuree("Saisie de la deuxiï¿½me durï¿½e : ");
+        d3 = DureeHMS.saisirDuree("Saisie de la troisiï¿½me durï¿½e : ");
 
-        System.out.println("ces 3 durées sont "
-                + (DureeHMS.ordre(d1, d2, d3) ? " ordonnées " : " dans le désordre"));
+        System.out.println("ces 3 durï¿½es sont "
+                + (DureeHMS.ordre(d1, d2, d3) ? " ordonnï¿½es " : " dans le dï¿½sordre"));
 
     }
     
@@ -54,16 +54,42 @@ public class UtilisationDuree {
      * 
      */
     public static void testDifferente() {
-        int[] d1; // première durée
-        int[] d2; // deuxième durée
-        int[] d3; // troisième
+        int[] d1; // premiere duree
+        int[] d2; // deuxiï¿½me durï¿½e
+        int[] d3; // troisiï¿½me
 
-        d1 = DureeHMS.saisirDuree("Saisie de la première durée : ");
-        d2 = DureeHMS.saisirDuree("Saisie de la deuxième durée : ");
-        d3 = DureeHMS.saisirDuree("Saisie de la troisième durée : ");
+        d1 = DureeHMS.saisirDuree("Saisie de la premiï¿½re durï¿½e : ");
+        d2 = DureeHMS.saisirDuree("Saisie de la deuxiï¿½me durï¿½e : ");
+        d3 = DureeHMS.saisirDuree("Saisie de la troisiï¿½me durï¿½e : ");
 
-        System.out.println("Parmi ces 3 durées, "
-                + DureeHMS.combienDifferentes(d1, d2, d3) + " sont différentes.");
+        System.out.println("Parmi ces 3 durï¿½es, "
+                + DureeHMS.combienDifferentes(d1, d2, d3) + " sont diffï¿½rentes.");
+
+    }
+    public static void testDifferentes() {
+        int[] d1; // premiere duree
+        int[] d2; // deuxiï¿½me durï¿½e
+        int[] d3; // troisiï¿½me
+
+        d1 = DureeHMS.saisirDuree("Saisie de la premiï¿½re durï¿½e : ");
+        d2 = DureeHMS.saisirDuree("Saisie de la deuxiï¿½me durï¿½e : ");
+        d3 = DureeHMS.saisirDuree("Saisie de la troisiï¿½me durï¿½e : ");
+
+        System.out.println("Parmi ces 3 durï¿½es, "
+                + DureeHMS.combienDifferentes(d1, d2, d3) + " sont diffï¿½rentes.");
+
+    }
+    public static void testDifferentess() {
+        int[] d1; // premiere duree
+        int[] d2; // deuxiï¿½me durï¿½e
+        int[] d3; // troisiï¿½me
+
+        d1 = DureeHMS.saisirDuree("Saisie de la premiï¿½re durï¿½e : ");
+        d2 = DureeHMS.saisirDuree("Saisie de la deuxiï¿½me durï¿½e : ");
+        d3 = DureeHMS.saisirDuree("Saisie de la troisiï¿½me durï¿½e : ");
+
+        System.out.println("Parmi ces 3 durï¿½es, "
+                + DureeHMS.combienDifferentes(d1, d2, d3) + " sont diffï¿½rentes.");
 
     }
     
